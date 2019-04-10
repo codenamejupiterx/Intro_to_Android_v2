@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Toolbar_test3</string>
+    <string name="formulas_page_text">formulas</string>
+    <string name="class_path_text">class path</string>
+    <string name="forums_text">forum</string>
+    <string name="quizzes_text">quizzes</string>
+    <string name="logout_text">logout</string>
+</resources>

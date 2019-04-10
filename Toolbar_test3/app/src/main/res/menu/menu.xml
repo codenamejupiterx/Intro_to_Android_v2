@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <!-- Settings, should always be in the overflow-->
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/forums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/forums_text"
+        app:showAsAction="never"/>
+
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/class_path"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:title="@string/class_path_text"
+        app:showAsAction="never"/>
+
+    <!-- "Mark Favorite", should appear as action button if possible-->
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/quizzes"
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:title="@string/quizzes_text"
+        app:showAsAction="never"/>
+
+
+
+    <!-- "Mark Favorite", should appear as action button if possible-->
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/formula_page"
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:title="@string/formulas_page_text"
+        app:showAsAction="never"/>
+
+    <!-- "Mark Favorite", should appear as action button if possible-->
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/logout_button"
+
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:title="@string/logout_text"
+        app:showAsAction="never"/>
+
+
+
+
+</menu>
